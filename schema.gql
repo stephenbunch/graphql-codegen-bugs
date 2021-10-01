@@ -1,0 +1,12 @@
+type Fruit {
+    color: Color
+}
+
+enum Color {
+    BLUE
+    RED
+}
+
+type Query {
+    fruit: Fruit
+}
